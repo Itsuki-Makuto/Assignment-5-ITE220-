@@ -1,0 +1,7 @@
+workspace:
+  id: 9c507b46-ccd7-4f59-8056-9646dd11631f
+cloudResources:
+  collections:
+    ../postman/collections/CSC220 Student API: 58296629-164f787b-2f9e-42db-ba93-9bb637242a5b
+  globals:
+    ../postman/globals/workspace.globals.yaml: 47d68359-4c6c-457e-899f-2970743edfa9

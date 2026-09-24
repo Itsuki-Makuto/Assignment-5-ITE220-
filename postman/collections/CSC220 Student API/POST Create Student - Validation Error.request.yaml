@@ -1,0 +1,14 @@
+$kind: http-request
+description: ""
+url: " http://localhost:3000/api/students/66f1a2b3c4d5e6f78901234"
+method: GET
+body:
+  type: json
+  content: "{\r
+
+    \"major\": \"IT\",\r
+
+    \"score\": 78\r
+
+    }"
+order: 4125858417453525

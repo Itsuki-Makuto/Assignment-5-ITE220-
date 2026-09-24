@@ -1,0 +1,8 @@
+$kind: http-request
+description: ""
+url: " http://localhost:3000/api/students/6aa761be3b5dceb4a09a6a08"
+method: PATCH
+body:
+  type: json
+  content: "{\r\n\"score\": 95\r\n}"
+order: 4452206433560238

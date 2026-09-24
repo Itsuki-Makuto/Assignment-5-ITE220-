@@ -1,0 +1,16 @@
+$kind: http-request
+description: ""
+url: " http://localhost:3000/api/students"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \"name\": \"Min\",    \r
+
+    \"major\": \"IT\",\r
+
+    \"score\": 78\r
+
+    }"
+order: 4039757483705566

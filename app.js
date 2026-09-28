@@ -1,6 +1,7 @@
 const express = require("express");
 const connectDB = require("./config/db");
 const Student = require("./models/Student");
+const authRoutes = require("./routes/auth");
 const app = express();
 const PORT = 3000;
 connectDB();
@@ -71,6 +72,7 @@ res.status(204).send();
 res.status(400).json({ error: "Invalid student ID" });
 }
 });
+app.use("/api/auth", authRoutes);
 app.use((req, res) => {
 res.status(404).json({ error: "Route not found" });
 });
